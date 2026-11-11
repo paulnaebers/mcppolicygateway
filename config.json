@@ -1,0 +1,20 @@
+{
+  "enforcement": true,
+  "namespace_separator": "__",
+  "upstreams": [
+    {
+      "name": "internal-docs",
+      "command": "python",
+      "args": ["-m", "servers.internal_docs"],
+      "zone": "internal",
+      "sensitive_tools": ["search_client_records", "get_client_case"]
+    },
+    {
+      "name": "external-research",
+      "command": "python",
+      "args": ["-m", "servers.external_research"],
+      "zone": "external",
+      "sensitive_tools": []
+    }
+  ]
+}
