@@ -1,8 +1,8 @@
 # MCP Policy Gateway
 
-Ausführbares Artefakt zur Masterarbeit von Paul Naebers. Die technische Demo
-zeigt, wie der Gateway die Weitergabe interner Testdaten an einen externen
-MCP-Dienst verhindert. Sie vergleicht denselben Gateway mit deaktivierter und
+Ausführbares Artefakt zur Masterarbeit "A Threat-Model-Driven MCP Policy Gateway for
+Enterprise AI Systems". Die technische Demo zeigt, wie der Gateway die Weitergabe interner 
+Testdaten an einen externen MCP-Dienst verhindert. Sie vergleicht denselben Gateway mit deaktivierter und
 aktivierter Durchsetzung.
 
 **Es werden kein API-Schlüssel, kein Sprachmodell und kein Claude Desktop benötigt.**
