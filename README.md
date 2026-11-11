@@ -5,16 +5,14 @@ Enterprise AI Systems". Die technische Demo zeigt, wie der Gateway die Weitergab
 Testdaten an einen externen MCP-Dienst verhindert. Sie vergleicht denselben Gateway mit deaktivierter und
 aktivierter Durchsetzung.
 
-**Es werden kein API-Schlüssel, kein Sprachmodell und kein Claude Desktop benötigt.**
 Der Testclient, der Gateway und beide MCP-Testserver laufen auf demselben Rechner.
 Der als „extern“ konfigurierte Server bildet die externe Vertrauenszone nach.
-Alle Mandanten- und Kontodaten sind synthetische Testdaten. Der Recherche-Server
+Alle Testdaten (Mandanten- und Kontodaten) sind erfundene Testdaten. Der Recherche-Server
 liefert fest hinterlegte Beispiele, keine Live-Recherche.
 
 ## Schnellstart
 
-Voraussetzung ist Python 3.10. Internetzugriff wird zum Herunterladen des
-Repositories und zur ersten Installation der Pakete benötigt. Die eigentliche
+Voraussetzung ist Python 3.10. Die eigentliche
 Demo verwendet anschließend ausschließlich lokale Prozesse.
 
 Das Repository über **Code → Download ZIP** herunterladen und entpacken oder
@@ -97,12 +95,8 @@ Ergebnisse werden nicht gelöscht. Pro Bedingung entstehen folgende Dateien:
 Die gemeinsame Datei `summary.json` nennt beide Ergebnisse, Python- und
 SDK-Version sowie Prüfsummen der relevanten Dateien. Das Gateway-Audit enthält
 keine Aufrufargumente. Der separate Testclient und der externe Testserver halten
-die synthetischen Inhalte fest, damit die konkrete Übertragung überprüft werden
+die Testinhalte fest, damit die konkrete Übertragung überprüft werden
 kann. Eine verweigerte Anfrage allein wäre dafür kein ausreichender Beleg.
-
-`results/`, `logs/` und lokale Python-Umgebungen werden nicht versioniert.
-Das Repository enthält keine Teilnehmeraufzeichnungen oder historischen
-Studienlogs. Neue Demo-Ergebnisse ersetzen die Belege in der Arbeit nicht.
 
 ## Weitere Aufrufe
 
